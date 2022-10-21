@@ -7,11 +7,7 @@ const Home = () => {
   };
   return (
     <>
-      <div
-        style={styleCSS}
-        className="place-content-center"
-      >
-        
+      <div style={styleCSS} className="place-content-center">
         <Cards />
       </div>
     </>

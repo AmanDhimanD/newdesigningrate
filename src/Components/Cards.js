@@ -24,8 +24,7 @@ const Cards = () => {
                   <h2 className="text-white title-font font-medium">
                     <Link to="/bitcoin">Bitcoin </Link>
                   </h2>
-                  <p className="text-gray-400">BTC
-                  </p>
+                  <p className="text-gray-400">BTC</p>
                 </div>
               </div>
             </div>
