@@ -8,6 +8,16 @@ import Bitcoin from "./PriceData/Bitcoin";
 
 function App() {
   const { height, width } = useWindowDimensions();
+  const styleCSS2 = {
+    background: "#4ade80 ",
+    height: "50vh",
+    color: "black",
+  };
+  const styleCSS3 = {
+    background: "black",
+    height: "100vh",
+    color: "white",
+  };
 
   return (
     <>
@@ -19,9 +29,9 @@ function App() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100vh",
+          height: "auto",
         }}
-        >
+      >
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route
@@ -69,6 +79,21 @@ function App() {
           <Route path="*" element={<Error />} exact />
         </Routes>
       </div>
+
+
+      
+      {/* second bg tags */}
+      {/* <div style={styleCSS2} className="text-center  ">
+        <h1 className="font-bold">Crypto Diffrence</h1>
+        <p className="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          voluptas nisi non placeat recusandae, veniam dolore vitae quasi id
+          corrupti et, repellendus quidem?
+        </p>
+      </div>
+      <div style={styleCSS3}>
+        
+      </div> */}
     </>
   );
 }
